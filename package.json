@@ -1,0 +1,25 @@
+{
+  "name": "edriso.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edriso/edriso.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edriso/edriso.github.io/issues"
+  },
+  "homepage": "https://github.com/edriso/edriso.github.io#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}
