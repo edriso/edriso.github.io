@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write '**/*.{html,css,js,json,md}'",
-    "dev": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
-    "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css"
+    "dev": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify --watch",
+    "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify"
   },
   "repository": {
     "type": "git",
