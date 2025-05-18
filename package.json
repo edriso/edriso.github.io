@@ -1,7 +1,8 @@
 {
   "name": "edriso.github.io",
   "version": "1.0.0",
-  "description": "",
+  "author": "Mohamed Idris",
+  "description": "Personal resume website built with plain HTML and Tailwind CSS, optimized for responsiveness and easy customization.",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write '**/*.{html,css,js,json,md}'",
@@ -13,7 +14,6 @@
     "url": "git+https://github.com/edriso/edriso.github.io.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edriso/edriso.github.io/issues"
