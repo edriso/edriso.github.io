@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css"
+    "format": "prettier --write '**/*.{html,css,js,json,md}'",
+    "dev": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
+    "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.7",
     "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
   }
 }
