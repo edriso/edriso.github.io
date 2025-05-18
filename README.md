@@ -4,16 +4,16 @@ Personal resume website built with plain HTML and Tailwind CSS, optimized for cl
 
 ## Features
 
-* Clean, minimal, and professional design
-* Fully responsive for all devices
-* Tailwind CSS v4.1 CLI for fast, efficient styling
-* Prettier integrated for automatic formatting
+- Clean, minimal, and professional design
+- Fully responsive for all devices
+- Tailwind CSS v4.1 CLI for fast, efficient styling
+- Prettier integrated for automatic formatting
 
 ## Setup
 
 ### Prerequisites
 
-* Node.js and npm installed
+- Node.js and npm installed
 
 ### Installation & Build
 
@@ -40,8 +40,8 @@ tailwind.config.js  # Tailwind config
 
 ## Customization
 
-* Customize `src/input.css` to adjust styles, colors, and Tailwind directives
-* Edit `index.html` to update content structure and page layout
+- Customize `src/input.css` to adjust styles, colors, and Tailwind directives
+- Edit `index.html` to update content structure and page layout
 
 ## Deployment
 
