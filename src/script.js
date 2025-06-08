@@ -1,4 +1,4 @@
-const downloadBtn = document.getElementById('downloadBtn');
+const downloadBtn = document.getElementById('download-btn');
 
 downloadBtn.addEventListener('click', async () => {
   const scrollPosition = window.scrollY;
