@@ -8,6 +8,15 @@
       rel="stylesheet"
     />
     <link href="./dist/style.css" rel="stylesheet" />
+
+    <!-- Include html2pdf.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <title>Mohamed Idris | Web Developer</title>
   </head>
   <body class="bg-bg-page text-text-primary font-sans p-8 max-w-3xl mx-auto">
@@ -27,7 +36,7 @@
       </p>
     </header>
 
-    <section class="mb-6">
+    <section class="mb-8">
       <h2
         class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
       >
@@ -47,7 +56,7 @@
       </p>
     </section>
 
-    <section class="mb-6">
+    <section class="mb-8">
       <h2
         class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
       >
@@ -61,26 +70,25 @@
         </p>
         <p>
           Contributed to the development of the
-          <strong>
-            <a href="https://github.com/scandiweb/satoshi-hyva" target="_blank">
-              Satoshi Hyvä theme
-            </a>
-          </strong>
+          <a
+            href="https://github.com/scandiweb/satoshi-hyva"
+            target="_blank"
+            class="border-b"
+          >
+            Satoshi Hyvä theme
+          </a>
           for Magento 2, utilizing Alpine.js, TypeScript, and TailwindCSS to
-          optimize performance, enhance scalability, and deliver a seamless user
-          experience.
+          improve performance, scalability, and user experience.
         </p>
         <p>
-          In February 2025, I joined the J.R. Dunn project as a team lead to
-          oversee the migration from Magento 1 to Shopify using the Satoshi
-          Shopify theme. J.R. Dunn, a luxury jewelry retailer known for its
-          authorized Rolex sales, needed a seamless transition to a scalable
-          Shopify platform. Despite lacking technical experience at the start, I
-          received valuable support from senior developers. As a team of junior
-          developers, we held daily 1-hour meetings to share knowledge,
-          collaborate on tasks, and discuss best practices. We supported each
-          other's growth, learned a great deal, and successfully delivered
-          high-quality results.
+          In February 2025, despite being a junior, I was recommended to lead
+          the J.R. Dunn project for migrating from Magento 1 to Shopify using
+          the Satoshi Shopify theme. J.R. Dunn is a luxury jewelry retailer
+          known for its authorized Rolex sales. I received valuable support from
+          senior developers. And as a team of junior developers, we held daily
+          1-hour meetings to share knowledge, collaborate on tasks, and discuss
+          best practices. We supported each other's growth, and successfully
+          delivered high-quality results.
         </p>
       </article>
 
@@ -110,95 +118,14 @@
       </article>
     </section>
 
-    <section class="mb-6">
-      <h2
-        class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        Projects
-      </h2>
-
-      <ul class="space-y-6">
-        <li>
-          <h3 class="font-semibold text-text-heading">Cup of That</h3>
-          <p>
-            Designed a community-driven productivity platform, allowing users to
-            share a daily achievement.
-            <em>Technologies: Vue.js, SASS</em>
-          </p>
-          <a
-            href="https://cupofthat-daily.web.app/about/"
-            target="_blank"
-            class="text-blue-500"
-          >
-            Demo
-          </a>
-        </li>
-
-        <li>
-          <h3 class="font-semibold text-text-heading">Number Ninjas</h3>
-          <p>
-            Developed an interactive math-solving app for kids, designed to make
-            learning engaging through fun and challenging activities.
-            <em>Technologies: React.js, i18n-react</em>
-          </p>
-          <a
-            href="https://number-little-ninjas.netlify.app/"
-            target="_blank"
-            class="text-blue-500"
-          >
-            Demo
-          </a>
-          |
-          <a
-            href="https://github.com/edriso/number-ninjas"
-            target="_blank"
-            class="text-blue-500"
-          >
-            GitHub
-          </a>
-        </li>
-
-        <li>
-          <h3 class="font-semibold text-text-heading">My Gym</h3>
-          <p>
-            A web app for managing fitness classes and bookings.
-            <em>Technologies: Laravel, MySQL</em>
-          </p>
-          <a
-            href="https://github.com/edriso/my-gym"
-            target="_blank"
-            class="text-blue-500"
-          >
-            GitHub
-          </a>
-        </li>
-
-        <li>
-          <h3 class="font-semibold text-text-heading">Jobify</h3>
-          <p>
-            A job tracking web app using the MERN stack to manage listings and
-            applications.
-            <em>Technologies: MongoDB, Express.js, React.js, Node.js</em>
-          </p>
-          <a
-            href="https://github.com/edriso/jobify"
-            target="_blank"
-            class="text-blue-500"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="mb-6">
+    <section class="mb-8" style="page-break-after: always">
       <h2
         class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
       >
         Education
       </h2>
 
-      <ul class="space-y-2">
+      <ul class="space-y-4">
         <li>
           <strong>Bachelor of Science in Computer Science</strong>
           , Alexandria University, 2015 - 2020
@@ -215,6 +142,87 @@
       </ul>
     </section>
 
+    <section class="mb-8">
+      <h2
+        class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+      >
+        Projects
+      </h2>
+
+      <ul class="space-y-4">
+        <li>
+          <h3 class="font-semibold text-text-heading">Cup of That</h3>
+          <p>
+            Designed a community-driven productivity platform, allowing users to
+            share a daily achievement.
+            <em>Technologies: Vue.js, SASS</em>
+          </p>
+          <a
+            href="https://cupofthat-daily.web.app/about/"
+            target="_blank"
+            class="border-b"
+          >
+            Demo
+          </a>
+        </li>
+
+        <li>
+          <h3 class="font-semibold text-text-heading">Number Ninjas</h3>
+          <p>
+            Developed an interactive math-solving app for kids, designed to make
+            learning engaging through fun and challenging activities.
+            <em>Technologies: React.js, i18n-react</em>
+          </p>
+          <a
+            href="https://github.com/edriso/number-ninjas"
+            target="_blank"
+            class="border-b"
+          >
+            GitHub
+          </a>
+          |
+          <a
+            href="https://number-little-ninjas.netlify.app/"
+            target="_blank"
+            class="border-b"
+          >
+            Demo
+          </a>
+        </li>
+
+        <li>
+          <h3 class="font-semibold text-text-heading">My Gym</h3>
+          <p>
+            A web app for managing fitness classes and bookings.
+            <em>Technologies: Laravel, MySQL</em>
+          </p>
+          <a
+            href="https://github.com/edriso/my-gym"
+            target="_blank"
+            class="border-b"
+          >
+            GitHub
+          </a>
+        </li>
+
+        <li>
+          <h3 class="font-semibold text-text-heading">Jobify</h3>
+          <p>
+            A job tracking web app using the MERN stack to manage listings and
+            applications.
+            <em>Technologies: MongoDB, Express.js, React.js, Node.js</em>
+          </p>
+          <a
+            href="https://github.com/edriso/jobify"
+            target="_blank"
+            class="border-b"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
+
     <section>
       <h2
         class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
@@ -222,7 +230,7 @@
         Skills
       </h2>
 
-      <ul class="list-disc list-inside space-y-1">
+      <ul class="space-y-1">
         <li>
           <strong>Backend</strong>
           : PHP (Laravel), Node.js (Express), MySQL, MongoDB
@@ -242,5 +250,14 @@
         </li>
       </ul>
     </section>
+
+    <button
+      id="downloadBtn"
+      class="fixed bottom-6 right-6 p-4 bg-accent text-white rounded-full shadow-md cursor-pointer print:hidden transition-opacity duration-300 ease-in-out hover:opacity-100 opacity-90"
+    >
+      Download
+    </button>
+
+    <script src="./src/script.js"></script>
   </body>
 </html>

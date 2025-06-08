@@ -3,9 +3,9 @@
 @theme {
   --font-display: 'Inter', 'sans-serif';
 
-  --color-bg-page: #f9fafb; /* Page background - overall background color for the resume */
+  --color-bg-page: #ffffff; /* Page background - overall background color for the resume */
   --color-text-primary: #1f2937; /* Main body text - used for most paragraphs and content */
   --color-text-heading: #374151; /* Headings and titles - section headers, job titles */
   --color-text-muted: #6b7280; /* Muted/neutral text - secondary info like dates, locations, metadata, captions */
-  --color-accent: #ff9800; /* Accent color - used sparingly for highlights like links, buttons, borders, or key info */
+  --color-accent: #0cb575; /* Accent color - used sparingly for highlights like links, buttons, borders, or key info */
 }
