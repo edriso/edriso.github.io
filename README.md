@@ -8,6 +8,7 @@ Personal resume website built with plain HTML and Tailwind CSS, optimized for cl
 - Fully responsive for all devices
 - Tailwind CSS v4.1 CLI for fast, efficient styling
 - Prettier integrated for automatic formatting
+- Option to download the resume as a PDF using `html2pdf.js`
 
 ## Setup
 
@@ -30,18 +31,19 @@ Open `index.html` to preview locally.
 ## Structure
 
 ```
-src/          # Tailwind input CSS
-dist/         # Generated CSS output
+src/          # Tailwind input CSS and JS files
+dist/         # Compiled output
 index.html    # Main resume page
 package.json  # npm scripts & dependencies
-tailwind.config.js  # Tailwind config
-.prettierrc   # Prettier config
+tailwind.config.js  # Tailwind CSS configuration file
+.prettierrc   # Prettier configuration file
 ```
 
 ## Customization
 
-- Customize `src/input.css` to adjust styles, colors, and Tailwind directives
-- Edit `index.html` to update content structure and page layout
+- Content: Update `index.html` to modify your resume content, structure, and layout
+- Styling: Modify `src/input.css` to adjust styles, colors, and Tailwind CSS directives
+- JavaScript: Edit `src/script.js` to customize the functionality (e.g., PDF download logic)
 
 ## Deployment
 
