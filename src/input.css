@@ -3,20 +3,43 @@
 @theme {
   --font-display: 'Inter', 'sans-serif';
 
-  --color-bg-page: #ffffff; /* Page background - overall background color for the resume */
-  --color-text-primary: #1f2937; /* Main body text - used for most paragraphs and content */
-  --color-text-heading: #374151; /* Headings and titles - section headers, job titles */
-  --color-text-muted: #6b7280; /* Muted/neutral text - secondary info like dates, locations, metadata, captions */
-  --color-accent: #1ccf8b; /* Accent color - used sparingly for highlights like links, buttons, borders, or key info */
-  --color-accent-dark: #0cb575;
+  /* Color Scheme */
+  --color-bg-page: #f9fafb; /* Page background color */
+  --color-text-primary: #1f2937; /* Main body text color */
+  --color-text-heading: #374151; /* Heading color */
+  --color-text-muted: #6b7280; /* Muted/secondary text color */
+  --color-accent: #0cb575; /* Accent color for links, buttons, borders */
+  --color-accent-dark: #03915b; /* Darker accent color */
+}
+
+main section {
+  @apply ml-2;
 }
 
 h2 {
   @apply -ml-2;
 }
 
+/* Printing Overrides */
+body.printing {
+  --color-bg-page: #fff;
+  --color-text-primary: #000;
+  --color-text-heading: #000;
+  --color-text-muted: #000;
+  --color-accent: #000;
+  --color-accent-dark: #000;
+}
+
+body.printing button#download-btn {
+  @apply hidden;
+}
+
+/* Prevent sections from splitting between pages */
+body.printing section {
+  page-break-inside: avoid;
+}
+
 @media print {
-  /* Prevent sections from splitting between pages */
   section {
     page-break-inside: avoid;
   }

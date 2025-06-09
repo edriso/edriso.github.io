@@ -1,12 +1,13 @@
 const downloadBtn = document.getElementById('download-btn');
+const bodyElm = document.body;
 
 downloadBtn.addEventListener('click', async () => {
   const scrollPosition = window.scrollY;
 
   window.scrollTo(0, 0);
-  downloadBtn.style.display = 'none';
+  bodyElm.classList.add('printing');
 
-  await html2pdf(document.body, {
+  await html2pdf(bodyElm, {
     filename: 'Mohamed_Idris_Resume.pdf',
     margin: 2,
     html2canvas: { scale: 2 },
@@ -14,5 +15,5 @@ downloadBtn.addEventListener('click', async () => {
   });
 
   window.scrollTo(0, scrollPosition);
-  downloadBtn.style.display = 'block';
+  bodyElm.classList.remove('printing');
 });
