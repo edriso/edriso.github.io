@@ -7,5 +7,17 @@
   --color-text-primary: #1f2937; /* Main body text - used for most paragraphs and content */
   --color-text-heading: #374151; /* Headings and titles - section headers, job titles */
   --color-text-muted: #6b7280; /* Muted/neutral text - secondary info like dates, locations, metadata, captions */
-  --color-accent: #0cb575; /* Accent color - used sparingly for highlights like links, buttons, borders, or key info */
+  --color-accent: #1ccf8b; /* Accent color - used sparingly for highlights like links, buttons, borders, or key info */
+  --color-accent-dark: #0cb575;
+}
+
+h2 {
+  @apply -ml-2;
+}
+
+@media print {
+  /* Prevent sections from splitting between pages */
+  section {
+    page-break-inside: avoid;
+  }
 }

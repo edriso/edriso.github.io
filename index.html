@@ -7,13 +7,13 @@
       name="description"
       content="Mohamed Idris - Full-stack web developer with experience in PHP, Node.js, React.js, and more. Check out my portfolio and resume."
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link href="./dist/style.css" rel="stylesheet" />
 
-    <!-- Include html2pdf.js -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
       integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
@@ -23,8 +23,10 @@
 
     <title>Mohamed Idris | Web Developer</title>
   </head>
-  <body class="bg-bg-page text-text-primary font-sans p-8 max-w-3xl mx-auto">
-    <header class="mb-8">
+  <body
+    class="bg-bg-page text-text-primary font-sans p-8 max-w-3xl mx-auto print:m-0 print:p-0"
+  >
+    <header>
       <h1 class="text-4xl font-bold mb-2 text-text-heading">Mohamed Idris</h1>
 
       <p class="text-lg text-text-muted">
@@ -40,221 +42,223 @@
       </p>
     </header>
 
-    <section class="mb-8 pl-2">
-      <h2
-        class="-ml-2 text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        About Me
-      </h2>
+    <main class="space-y-8 mt-8 pl-2">
+      <section>
+        <h2
+          class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+        >
+          About
+        </h2>
 
-      <p>
-        I'm a full-stack web developer passionate about building user-friendly
-        and efficient web applications. With a solid foundation in computer
-        science.
-      </p>
-      <p>
-        My experience includes working with PHP, Node.js, MySQL, React.js,
-        MongoDB, and Vue.js. I enjoy staying up to date with the latest
-        technologies and thrive in collaborative environments to create
-        impactful solutions.
-      </p>
-    </section>
-
-    <section class="mb-8 pl-2">
-      <h2
-        class="-ml-2 text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        Experience
-      </h2>
-
-      <article class="mb-4">
-        <h3 class="font-semibold text-text-heading">Scandiweb</h3>
-        <p class="text-sm italic text-text-muted">
-          Jul 2024 – Present | Remote
+        <p>
+          I’m a full-stack web developer with a strong foundation in computer
+          science and a passion for creating user-friendly, efficient web
+          applications.
         </p>
         <p>
-          Contributed to the development of the
-          <a
-            href="https://github.com/scandiweb/satoshi-hyva"
-            target="_blank"
-            class="border-b"
-          >
-            Satoshi Hyvä theme
-          </a>
-          for Magento 2, utilizing Alpine.js, TypeScript, and TailwindCSS to
-          improve performance, scalability, and user experience.
+          With experience in JavaScript, PHP, and various modern technologies, I
+          enjoy collaborating with teams to build impactful solutions that drive
+          growth and add value to users.
         </p>
-        <p>
-          In February 2025, despite being a junior, I was recommended to lead
-          the J.R. Dunn project for migrating from Magento 1 to Shopify using
-          the Satoshi Shopify theme. J.R. Dunn is a luxury jewelry retailer
-          known for its authorized Rolex sales. I received valuable support from
-          senior developers. And as a team of junior developers, we held daily
-          1-hour meetings to share knowledge, collaborate on tasks, and discuss
-          best practices. We supported each other's growth, and successfully
-          delivered high-quality results.
-        </p>
-      </article>
+      </section>
 
-      <article class="mb-4">
-        <h3 class="font-semibold text-text-heading">AQuadic</h3>
-        <p class="text-sm italic text-text-muted">
-          Jan 2024 – Jun 2024 | Alexandria, Egypt
-        </p>
-        <p>
-          Designed and implemented database schemas, relationships, and APIs
-          using Laravel, MySQL, and FilamentPHP. Worked on projects including a
-          car rental app, e-commerce platforms, and a membership management
-          system.
-        </p>
-      </article>
+      <section>
+        <h2
+          class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+        >
+          Experience
+        </h2>
 
-      <article>
-        <h3 class="font-semibold text-text-heading">Libertas</h3>
-        <p class="text-sm italic text-text-muted">
-          Apr 2023 – Sep 2023 | Remote
-        </p>
-        <p>
-          Developed and maintained Discord bots for community management using
-          Laravel, React.js, Prisma, and TypeScript. Enhanced features such as
-          the affiliate program, credit system, and notification system.
-        </p>
-      </article>
-    </section>
-
-    <section class="mb-8 pl-2" style="page-break-after: always">
-      <h2
-        class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        Education
-      </h2>
-
-      <ul class="space-y-4">
-        <li>
-          <strong>Bachelor of Science in Computer Science</strong>
-          , Alexandria University, 2015 - 2020
-        </li>
-        <li>
-          <strong>PHP & Node.js Development Track</strong>
-          , Information Technology Institute (ITI), Nov 2022 - Mar 2023
-        </li>
-      </ul>
-    </section>
-
-    <section class="mb-8 pl-2">
-      <h2
-        class="-ml-2 text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        Projects
-      </h2>
-
-      <ul class="space-y-4">
-        <li>
-          <h3 class="font-semibold text-text-heading">Cup of That</h3>
-          <p>
-            Designed a community-driven productivity platform, allowing users to
-            share a daily achievement.
-            <em>Technologies: Vue.js, SASS</em>
+        <article class="mb-4">
+          <h3 class="font-semibold text-text-heading">Scandiweb</h3>
+          <p class="text-sm italic text-text-muted">
+            Jul 2024 – Present | Remote
           </p>
-          <a
-            href="https://cupofthat-daily.web.app/about/"
-            target="_blank"
-            class="border-b"
-          >
-            Demo
-          </a>
-        </li>
-
-        <li>
-          <h3 class="font-semibold text-text-heading">Number Ninjas</h3>
           <p>
-            Developed an interactive math-solving app for kids, designed to make
-            learning engaging through fun and challenging activities.
-            <em>Technologies: React.js, i18n-react</em>
+            Contributed to the development of
+            <a
+              href="https://github.com/scandiweb/satoshi-hyva"
+              target="_blank"
+              class="border-b"
+            >
+              Satoshi Hyva theme
+            </a>
+            for Magento 2, using Hyvä, Alpine.js, TypeScript, and TailwindCSS to
+            improve performance, scalability, and user experience.
           </p>
-          <a
-            href="https://github.com/edriso/number-ninjas"
-            target="_blank"
-            class="border-b"
-          >
-            GitHub
-          </a>
-          |
-          <a
-            href="https://number-little-ninjas.netlify.app/"
-            target="_blank"
-            class="border-b"
-          >
-            Demo
-          </a>
-        </li>
-
-        <li>
-          <h3 class="font-semibold text-text-heading">My Gym</h3>
           <p>
-            A web app for managing fitness classes and bookings.
-            <em>Technologies: Laravel, MySQL</em>
+            In February 2025, despite being a junior, I was asked to lead the
+            J.R. Dunn project for migrating from Magento 1 to Shopify using
+            Satoshi Shopify theme. J.R. Dunn is a luxury jewelry retailer known
+            for its authorized Rolex sales. I received valuable support from
+            senior developers. And as a team of junior developers, we held daily
+            1-hour meetings to share knowledge, collaborate on tasks, and
+            discuss best practices. We supported each other's growth, and
+            successfully delivered high-quality results.
           </p>
-          <a
-            href="https://github.com/edriso/my-gym"
-            target="_blank"
-            class="border-b"
-          >
-            GitHub
-          </a>
-        </li>
+        </article>
 
-        <li>
-          <h3 class="font-semibold text-text-heading">Jobify</h3>
+        <article class="mb-4">
+          <h3 class="font-semibold text-text-heading">AQuadic</h3>
+          <p class="text-sm italic text-text-muted">
+            Jan 2024 – Jun 2024 | Alexandria, Egypt
+          </p>
           <p>
-            A job tracking web app using the MERN stack to manage listings and
-            applications.
-            <em>Technologies: MongoDB, Express.js, React.js, Node.js</em>
+            Designed and implemented database schemas, relationships, and APIs
+            using Laravel, MySQL, and FilamentPHP. Worked on projects including
+            a car rental app, e-commerce platforms, and a membership management
+            system.
           </p>
-          <a
-            href="https://github.com/edriso/jobify"
-            target="_blank"
-            class="border-b"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
-    </section>
+        </article>
 
-    <section class="pl-2">
-      <h2
-        class="-ml-2 text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
-      >
-        Skills
-      </h2>
+        <article>
+          <h3 class="font-semibold text-text-heading">Libertas</h3>
+          <p class="text-sm italic text-text-muted">
+            Apr 2023 – Sep 2023 | Remote
+          </p>
+          <p>
+            Developed and maintained Discord bots for community management using
+            Laravel, React.js, Discord.js, Prisma, and TypeScript. Enhanced
+            features such as the affiliate program, credit system, and
+            notification system.
+          </p>
+        </article>
+      </section>
 
-      <ul class="space-y-1">
-        <li>
-          <strong>Backend</strong>
-          : PHP (Laravel), Node.js (Express), MySQL, MongoDB
-        </li>
-        <li>
-          <strong>Frontend</strong>
-          : React.js, JavaScript, TypeScript, HTML, CSS (SASS, TailwindCSS),
-          Alpine.js, Vue.js 2
-        </li>
-        <li>
-          <strong>Tools</strong>
-          : Git, Postman, FilamentPHP
-        </li>
-        <li>
-          <strong>Soft Skills</strong>
-          : Agile Methodologies, Team Collaboration, Code Review
-        </li>
-      </ul>
-    </section>
+      <section style="page-break-after: always">
+        <h2
+          class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+        >
+          Education
+        </h2>
+
+        <ul class="space-y-4">
+          <li>
+            <strong>Bachelor of Science in Computer Science</strong>
+            , Alexandria University, 2015 - 2020
+          </li>
+          <li>
+            <strong>PHP & Node.js Development Track</strong>
+            , Information Technology Institute (ITI), Nov 2022 - Mar 2023
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2
+          class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+        >
+          Projects
+        </h2>
+
+        <ul class="space-y-4">
+          <li>
+            <h3 class="font-semibold text-text-heading">Number Ninjas</h3>
+            <p>
+              Developed an interactive math-solving app for kids, designed to
+              make learning engaging through fun and challenging activities.
+              <em>Technologies: React.js, i18n-react</em>
+            </p>
+            <a
+              href="https://github.com/edriso/number-ninjas"
+              target="_blank"
+              class="border-b"
+            >
+              GitHub
+            </a>
+            |
+            <a
+              href="https://number-little-ninjas.netlify.app/"
+              target="_blank"
+              class="border-b"
+            >
+              Demo
+            </a>
+          </li>
+
+          <li>
+            <h3 class="font-semibold text-text-heading">Cup of That</h3>
+            <p>
+              Designed a community-driven productivity platform, allowing users
+              to share a daily achievement.
+              <em>Technologies: Vue.js, SASS</em>
+            </p>
+            <a
+              href="https://cupofthat-daily.web.app/about/"
+              target="_blank"
+              class="border-b"
+            >
+              Demo
+            </a>
+          </li>
+
+          <li>
+            <h3 class="font-semibold text-text-heading">My Gym</h3>
+            <p>
+              A web app for managing fitness classes and bookings.
+              <em>Technologies: Laravel, MySQL</em>
+            </p>
+            <a
+              href="https://github.com/edriso/my-gym"
+              target="_blank"
+              class="border-b"
+            >
+              GitHub
+            </a>
+          </li>
+
+          <li>
+            <h3 class="font-semibold text-text-heading">Jobify</h3>
+            <p>
+              A job tracking web app using the MERN stack to manage listings and
+              applications.
+              <em>Technologies: MongoDB, Express.js, React.js, Node.js</em>
+            </p>
+            <a
+              href="https://github.com/edriso/jobify"
+              target="_blank"
+              class="border-b"
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2
+          class="text-2xl font-semibold border-b border-accent pb-1 mb-3 text-text-heading"
+        >
+          Skills
+        </h2>
+
+        <ul class="space-y-1">
+          <li>
+            <strong>Backend</strong>
+            : PHP (Laravel), Node.js (Express), MySQL, MongoDB
+          </li>
+          <li>
+            <strong>Frontend</strong>
+            : React.js, JavaScript, TypeScript, HTML, CSS (SASS, TailwindCSS),
+            Alpine.js, Vue.js
+          </li>
+          <li>
+            <strong>Tools</strong>
+            : Git, Postman, FilamentPHP
+          </li>
+          <li>
+            <strong>Soft Skills</strong>
+            : Agile Methodologies, Team Collaboration, Code Review
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <button
       id="download-btn"
-      class="fixed bottom-6 right-6 p-4 bg-accent text-white rounded-full shadow-md cursor-pointer print:hidden transition-opacity duration-300 ease-in-out hover:opacity-100 opacity-90"
+      class="fixed bottom-6 right-6 px-5 py-3 bg-accent text-white rounded-full shadow-lg cursor-pointer print:hidden transition-colors duration-300 ease-in-out hover:bg-accent-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent"
     >
-      Download
+      Download as PDF
     </button>
 
     <script src="./src/script.js"></script>

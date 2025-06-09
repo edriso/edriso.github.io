@@ -8,7 +8,7 @@ downloadBtn.addEventListener('click', async () => {
 
   await html2pdf(document.body, {
     filename: 'Mohamed_Idris_Resume.pdf',
-    margin: 1,
+    margin: 2,
     html2canvas: { scale: 2 },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
   });
