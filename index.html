@@ -2,10 +2,15 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-34R9HJ6BRQ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-34R9HJ6BRQ"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
 
       gtag('config', 'G-34R9HJ6BRQ');
@@ -15,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Mohamed Idris - Full-stack web developer with experience in PHP, Node.js, React.js, and more. Check out my portfolio and resume."
+      content="Mohamed Idris - Frontend web developer with experience in React.js, PHP, Node.js, and modern web technologies. Explore my projects, skills, and professional experience."
     />
 
     <link
@@ -31,7 +36,7 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <title>Mohamed Idris | Web Developer</title>
+    <title>Mohamed Idris | Frontend Developer</title>
   </head>
   <body
     class="bg-bg-page text-text-primary font-sans p-8 max-w-3xl mx-auto print:m-0 print:p-0"
@@ -60,16 +65,18 @@
           About
         </h2>
 
-        <p>
-          I’m a full-stack web developer with a strong foundation in computer
-          science and a passion for creating user-friendly, efficient web
-          applications.
-        </p>
-        <p>
-          With experience in JavaScript, PHP, and various modern technologies, I
-          enjoy collaborating with teams to build impactful solutions that drive
-          growth and add value to users.
-        </p>
+        <div class="space-y-2">
+          <p>
+            I’m a front-end web developer with a strong foundation in computer
+            science and a passion for creating user-friendly, efficient web
+            applications.
+          </p>
+          <p>
+            With experience in JavaScript, PHP, and various modern technologies,
+            I enjoy collaborating with teams to build impactful solutions that
+            drive growth and add value to users.
+          </p>
+        </div>
       </section>
 
       <section>
@@ -84,28 +91,40 @@
           <p class="text-sm italic text-text-muted">
             Jul 2024 – Present | Remote
           </p>
-          <p>
-            Contributed to the development of
-            <a
-              href="https://github.com/scandiweb/satoshi-hyva"
-              target="_blank"
-              class="border-b"
-            >
-              Satoshi Hyva theme
-            </a>
-            for Magento 2, using Hyvä, Alpine.js, TypeScript, and TailwindCSS to
-            improve performance, scalability, and user experience.
-          </p>
-          <p>
-            In February 2025, despite being a junior, I was asked to lead the
-            J.R. Dunn project for migrating from Magento 1 to Shopify using
-            Satoshi Shopify theme. J.R. Dunn is a luxury jewelry retailer known
-            for its authorized Rolex sales. I received valuable support from
-            senior developers. And as a team of junior developers, we held daily
-            1-hour meetings to share knowledge, collaborate on tasks, and
-            discuss best practices. We supported each other's growth, and
-            successfully delivered high-quality results.
-          </p>
+          <div class="space-y-2">
+            <p>
+              Contributed to the development of
+              <a
+                href="https://github.com/scandiweb/satoshi-hyva"
+                target="_blank"
+                class="border-b"
+              >
+                Satoshi Hyva theme
+              </a>
+              for Magento 2, using Hyvä, Alpine.js, TypeScript, and TailwindCSS
+              to improve performance, scalability, and user experience.
+            </p>
+            <p>
+              In February 2025, despite being a junior, I was asked to lead the
+              J.R. Dunn project for migrating from Magento 1 to Shopify using
+              Satoshi Shopify theme. J.R. Dunn is a luxury jewelry retailer
+              known for its authorized Rolex sales. I received valuable support
+              from senior developers. And as a team of junior developers, we
+              held daily 1-hour meetings to share knowledge, collaborate on
+              tasks, and discuss best practices. We supported each other's
+              growth, and successfully delivered high-quality results.
+            </p>
+            <p>
+              In November, worked on revamping the Product Detail Page (PDP) for
+              Corbeilelectro using Hyvä, TailwindCSS, and Alpine.js, focusing on
+              improving UX/UI and performance.
+            </p>
+            <p>
+              And, In late November, I began working with JolaUSA as an
+              outsourced Frontend Developer, supporting the team with modern,
+              performance-driven frontend development.
+            </p>
+          </div>
         </article>
 
         <article class="mb-4">
@@ -128,7 +147,7 @@
           </p>
           <p>
             Developed and maintained Discord bots for community management using
-            Laravel, React.js, Discord.js, Prisma, and TypeScript. Enhanced
+            React.js, TypeScript, Discord.js, Prisma, and Laravel. Enhanced
             features such as the affiliate program, credit system, and
             notification system.
           </p>
@@ -165,7 +184,9 @@
           <li>
             <h3 class="font-semibold text-text-heading">Number Ninjas</h3>
             <p>
-              Developed an interactive math-solving app for kids, designed to make learning engaging through fun and challenging activities.
+              Developed an interactive math-solving app for kids, designed to
+              make learning engaging through fun and challenging activities.
+              <br />
               <em>Technologies: React.js, i18n-react</em>
             </p>
             <a
@@ -188,8 +209,10 @@
           <li>
             <h3 class="font-semibold text-text-heading">Grateful Heart</h3>
             <p>
-              A simple web app to help you practice gratitude by writing down what you're thankful for each day.
-              <em>Technologies: HTML, CSS (Tailwind), and JavaScript</em>
+              A simple web app to help you practice gratitude by writing down
+              what you're thankful for each day.
+              <br />
+              <em>Technologies: JavaScript, HTML, TailwindCSS</em>
             </p>
             <a
               href="https://github.com/edriso/grateful-heart"
@@ -209,10 +232,55 @@
           </li>
 
           <li>
+            <h3 class="font-semibold text-text-heading">One Lesson Up</h3>
+            <p>
+              A gamified learning web app to help you focus on one course at a
+              time, earn coins for progress, and actually reach the finish line.
+              <br />
+              <em>Technologies: Laravel, MySQL, Vue.js</em>
+            </p>
+            <a
+              href="https://github.com/edriso/one-lesson-up"
+              target="_blank"
+              class="border-b"
+            >
+              GitHub
+            </a>
+            |
+            <a href="https://onelessonup.com" target="_blank" class="border-b">
+              Live
+            </a>
+          </li>
+
+          <li>
+            <h3 class="font-semibold text-text-heading">Waddda</h3>
+            <p>
+              Waddda helps you capture and remember the good moments in your
+              relationships to strengthen bonds and soften hearts during
+              conflicts.
+              <br />
+              <em>Technologies: Laravel, MySQL, Vue.js</em>
+            </p>
+            <a
+              href="https://github.com/edriso/waddda"
+              target="_blank"
+              class="border-b"
+            >
+              GitHub
+            </a>
+            |
+            <a href="https://waddda.com" target="_blank" class="border-b">
+              Live
+            </a>
+          </li>
+
+          <li>
             <h3 class="font-semibold text-text-heading">Jobify</h3>
             <p>
-              A job tracking web app using the MERN stack to manage listings and applications.
-              <em>Technologies: MongoDB, Express.js, React.js, Node.js</em>
+              A job tracking web app using the MERN stack to manage listings and
+              applications.
+              <br />
+              <em>Technologies: React.js, Node.js, Express.js, MongoDB</em>
             </p>
             <a
               href="https://github.com/edriso/jobify"
@@ -222,37 +290,6 @@
               GitHub
             </a>
           </li>
-
-          <li>
-            <h3 class="font-semibold text-text-heading">My Gym</h3>
-            <p>
-              A web app for managing fitness classes and bookings.
-              <em>Technologies: Laravel, MySQL</em>
-            </p>
-            <a
-              href="https://github.com/edriso/my-gym"
-              target="_blank"
-              class="border-b"
-            >
-              GitHub
-            </a>
-          </li>
-
-          <!-- <li>
-            <h3 class="font-semibold text-text-heading">Cup of That</h3>
-            <p>
-              Designed a community-driven productivity platform, allowing users
-              to share a daily achievement.
-              <em>Technologies: Vue.js, SASS</em>
-            </p>
-            <a
-              href="https://cupofthat-daily.web.app/about/"
-              target="_blank"
-              class="border-b"
-            >
-              Demo
-            </a>
-          </li> -->
         </ul>
       </section>
 
@@ -265,17 +302,17 @@
 
         <ul class="space-y-4">
           <li>
+            <strong>Frontend</strong>
+            : React.js, JavaScript, TypeScript, Vue.js, HTML, CSS (SASS,
+            TailwindCSS), Alpine.js
+          </li>
+          <li>
             <strong>Backend</strong>
             : PHP (Laravel), Node.js (Express), MySQL, MongoDB
           </li>
           <li>
-            <strong>Frontend</strong>
-            : React.js, JavaScript, TypeScript, HTML, CSS (SASS, TailwindCSS),
-            Alpine.js, Vue.js
-          </li>
-          <li>
             <strong>Tools</strong>
-            : Git, Postman, FilamentPHP
+            : Git, Postman
           </li>
           <li>
             <strong>Soft Skills</strong>
