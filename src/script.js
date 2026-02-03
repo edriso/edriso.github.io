@@ -8,7 +8,7 @@ downloadBtn.addEventListener('click', async () => {
   bodyElm.classList.add('printing');
 
   await html2pdf(bodyElm, {
-    filename: 'Mohamed_Idris_Resume.pdf',
+    filename: 'Mohamed_Idris-Software_Engineer.pdf',
     margin: 2,
     html2canvas: { scale: 2 },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
