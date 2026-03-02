@@ -24,27 +24,35 @@ h2 {
   @apply -ml-2;
 }
 
-/* Printing Overrides */
-body.printing {
-  --color-bg-page: #fff;
-  --color-text-primary: #000;
-  --color-text-heading: #000;
-  --color-text-muted: #000;
-  --color-accent: #000;
-  --color-accent-dark: #000;
-}
-
-body.printing button#download-btn {
-  @apply hidden;
-}
-
-/* Prevent sections from splitting between pages */
-body.printing section {
-  page-break-inside: avoid;
-}
-
 @media print {
-  section {
+  body {
+    --color-bg-page: #fff;
+    --color-text-primary: #000;
+    --color-text-heading: #000;
+    --color-text-muted: #000;
+    --color-accent: #000;
+    --color-accent-dark: #000;
+  }
+
+  button#download-btn {
+    @apply hidden;
+  }
+
+  main {
+    @apply space-y-3 mt-3;
+  }
+
+  h2 {
+    @apply text-xl mb-2;
+    break-after: avoid;
+  }
+
+  ul {
+    @apply space-y-2;
+  }
+
+  article {
+    @apply mb-2;
     page-break-inside: avoid;
   }
 }

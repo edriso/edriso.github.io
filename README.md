@@ -4,7 +4,7 @@ Personal resume website built with plain HTML and Tailwind CSS, optimized for cl
 
 ## Features
 
-- **Download as PDF**: Easily download your resume as a PDF with `html2pdf.js`.
+- **Download as PDF**: Easily download your resume as a PDF using the browser's native print dialog.
 - **Print-Friendly**: Optimized layout for printing, ensuring your resume looks great both digitally and on paper.
 - **Sleek and Professional Design**: A clean, modern, and minimal design for a polished look.
 - **Fully Responsive**: Optimized for all screen sizes, ensuring a great experience on desktops, tablets, and smartphones.
@@ -37,7 +37,6 @@ src/          # Tailwind input CSS and JS files
 dist/         # Compiled output
 index.html    # Main resume page
 package.json  # npm scripts & dependencies
-tailwind.config.js  # Tailwind CSS configuration file
 .prettierrc   # Prettier configuration file
 ```
 
@@ -45,7 +44,7 @@ tailwind.config.js  # Tailwind CSS configuration file
 
 - Content: Update `index.html` to modify your resume content, structure, and layout
 - Styling: Modify `src/input.css` to adjust styles, colors, and Tailwind CSS directives
-- JavaScript: Edit `src/script.js` to customize the functionality (e.g., PDF download logic)
+- JavaScript: Edit `src/script.js` to customize functionality
 
 ## Deployment
 
