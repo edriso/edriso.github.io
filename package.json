@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "Mohamed Idris",
   "description": "Personal resume website built with plain HTML and Tailwind CSS, optimized for responsiveness and easy customization.",
-  "main": "index.js",
   "scripts": {
     "format": "prettier --write '**/*.{html,css,js,json,md}'",
     "dev": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify --watch",
