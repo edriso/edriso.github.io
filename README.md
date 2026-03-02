@@ -33,7 +33,7 @@ Open `index.html` to preview locally.
 ## Structure
 
 ```
-src/          # Tailwind input CSS and JS files
+src/          # Tailwind input CSS, JS, and assets (favicon)
 dist/         # Compiled output
 index.html    # Main resume page
 package.json  # npm scripts & dependencies
