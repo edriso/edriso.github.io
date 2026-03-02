@@ -13,7 +13,7 @@
 }
 
 a {
-  @apply border-b border-current;
+  @apply border-b border-current text-accent;
 }
 
 main section {
