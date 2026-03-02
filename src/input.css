@@ -8,8 +8,8 @@
   --color-text-primary: #1f2937; /* Main body text color */
   --color-text-heading: #374151; /* Heading color */
   --color-text-muted: #6b7280; /* Muted/secondary text color */
-  --color-accent: #0cb575; /* Accent color for links, buttons, borders */
-  --color-accent-dark: #03915b; /* Darker accent color */
+  --color-accent: #4f46e5; /* Accent color for links, buttons, borders */
+  --color-accent-dark: #3730a3; /* Darker accent color */
 }
 
 a {
