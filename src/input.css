@@ -12,6 +12,10 @@
   --color-accent-dark: #03915b; /* Darker accent color */
 }
 
+a {
+  @apply border-b border-current;
+}
+
 main section {
   @apply ml-2;
 }
