@@ -5,7 +5,7 @@
   "description": "Personal resume website built with plain HTML and Tailwind CSS, optimized for responsiveness and easy customization.",
   "scripts": {
     "format": "prettier --write '**/*.{html,css,js,json,md}'",
-    "dev": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify --watch",
+    "dev": "npm run format && npx concurrently 'npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify --watch' 'npx onchange \"**/*.{html,css,js,json,md}\" -- prettier --write {{changed}}'",
     "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify"
   },
   "repository": {
