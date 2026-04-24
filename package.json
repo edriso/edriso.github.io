@@ -6,7 +6,8 @@
   "scripts": {
     "format": "prettier --write '**/*.{html,css,js,json,md}'",
     "dev": "npm run format && npx concurrently 'npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify --watch' 'npx onchange \"**/*.{html,css,js,json,md}\" -- prettier --write {{changed}}'",
-    "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify"
+    "build": "npm run format && npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,11 @@
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "3.5.3"
+  },
+  "lint-staged": {
+    "**/*.{html,css,js,json,md}": "prettier --write"
   }
 }

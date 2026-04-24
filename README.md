@@ -32,7 +32,7 @@ The experience, education, and projects sections are shared across all roles and
 - **Print-Friendly**: Optimized layout for printing.
 - **Fully Responsive**: Works across all screen sizes.
 - **Tailwind CSS v4**: Fast, efficient styling.
-- **Prettier Integration**: Automatic code formatting.
+- **Prettier + Husky**: Automatic formatting enforced on every commit.
 
 ## Setup
 
@@ -50,7 +50,13 @@ npm run dev    # development mode with watch
 npm run build  # production build
 ```
 
+> `npm install` automatically sets up the Husky pre-commit hook via the `prepare` script — no manual step needed.
+
 Open `index.html` to preview locally.
+
+## Pre-commit Hook
+
+Husky runs lint-staged on every commit, formatting all staged `*.{html,css,js,json,md}` files with Prettier automatically.
 
 ## Structure
 
@@ -59,11 +65,21 @@ src/
   script.js     # Role data + detection + DOM injection logic
   input.css     # Tailwind input CSS
   assets/       # favicon
-dist/           # Compiled CSS output
+dist/           # Compiled CSS output (generated, do not edit)
 index.html      # Resume shell (experience, education, projects)
 package.json    # npm scripts & dependencies
 .prettierrc     # Prettier configuration
+.prettierignore # Files excluded from formatting
 ```
+
+## Scripts
+
+| Command           | Description                              |
+| ----------------- | ---------------------------------------- |
+| `npm run dev`     | Format + start Tailwind watch mode       |
+| `npm run build`   | Format + compile Tailwind for production |
+| `npm run format`  | Format all source files with Prettier    |
+| `npm run prepare` | Set up Husky hooks (runs on npm install) |
 
 ## Customization
 
