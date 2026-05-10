@@ -5,7 +5,7 @@ const PROJECTS = {
     name: 'NumNinjas',
     description:
       'A bilingual Telegram bot + website that teaches kids math through daily questions, ninja belt levels, adaptive difficulty, and weekly leaderboards. 840 questions across 35 topics.',
-    tech: 'TypeScript, Grammy, Next.js 15, Prisma, MySQL',
+    tech: 'TypeScript, grammY, Next.js 15, Prisma, MySQL',
     links: [
       { label: 'GitHub', url: 'https://github.com/edriso/num-ninjas' },
       { label: 'Demo', url: 'https://youtu.be/6CjTg_NaghM' },
@@ -58,7 +58,7 @@ const PROJECTS = {
     name: 'Jobify',
     description:
       'A job tracking app where users can manage and track their job applications, with stats dashboard and charts.',
-    tech: 'React.js, Node.js, Express.js, MongoDB, JWT, React Query, Recharts',
+    tech: 'React, Node.js, Express.js, MongoDB, JWT, React Query, Recharts',
     links: [{ label: 'GitHub', url: 'https://github.com/edriso/jobify' }],
   },
   gemoss: {
@@ -85,28 +85,29 @@ const ROLES = {
   software: {
     pageTitle: 'Mohamed Idris - Software Engineer',
     metaDescription:
-      'Mohamed Idris - Software Engineer building web apps with React, Node.js, TypeScript, PHP, and more.',
+      'Mohamed Idris - Software Engineer building web apps with TypeScript, React, Node.js, NestJS, PHP/Laravel, and Prisma.',
     ogTitle: 'Mohamed Idris | Software Engineer',
     ogDescription:
-      'Software Engineer building web apps with React, Node.js, TypeScript, PHP, and more.',
+      'Software Engineer building web apps with TypeScript, React, Node.js, NestJS, PHP/Laravel, and Prisma.',
     roleTitle: 'Software Engineer',
     about: [
       'Software engineer with a strong foundation in computer science and a passion for building web applications that solve real problems and are easy for people to use.',
-      'Experienced across the full stack, from building frontend interfaces with React and Vue to developing APIs and services with Node.js and Laravel. I enjoy collaborating with teams to deliver well-crafted applications that create real value. Active user of AI tools to accelerate development workflows.',
+      'Experienced across the full stack with TypeScript as my primary language — building frontend interfaces with React and Vue, and developing APIs and services with Node.js, NestJS, Express.js, Prisma, and Laravel. I enjoy collaborating with teams to deliver well-crafted applications that create real value. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
-      { label: 'Languages', items: 'JavaScript, TypeScript, PHP, HTML, CSS' },
+      { label: 'Languages', items: 'TypeScript, JavaScript, PHP, HTML, CSS' },
       {
         label: 'Frontend',
-        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, SASS',
+        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, Sass',
       },
       {
         label: 'Backend',
-        items: 'Node.js, Express.js, Laravel, Prisma, GraphQL, REST APIs',
+        items:
+          'Node.js, NestJS, Express.js, Laravel, Prisma, GraphQL, REST APIs',
       },
       { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB, Redis' },
       { label: 'Platforms', items: 'Shopify, Magento 2, Hyvä' },
-      { label: 'Bots', items: 'Grammy, Discord.js' },
+      { label: 'Bots', items: 'grammY, Discord.js' },
       { label: 'Testing', items: 'Vitest, Jest, React Testing Library' },
       { label: 'Tools', items: 'Git, Docker, CI/CD, Postman, AI Tools' },
       {
@@ -120,28 +121,29 @@ const ROLES = {
   fullstack: {
     pageTitle: 'Mohamed Idris - Fullstack Engineer',
     metaDescription:
-      'Mohamed Idris - Fullstack Engineer building performant web applications with React, Next.js, TypeScript, Node.js, and GraphQL.',
+      'Mohamed Idris - Fullstack Engineer building performant web applications with TypeScript, React, Next.js, Node.js, NestJS, and Prisma.',
     ogTitle: 'Mohamed Idris | Fullstack Engineer',
     ogDescription:
-      'Fullstack Engineer building performant web applications with React, Next.js, TypeScript, and Node.js.',
+      'Fullstack Engineer building performant web applications with TypeScript, React, Next.js, Node.js, and NestJS.',
     roleTitle: 'Fullstack Engineer',
     about: [
       'Fullstack engineer with a strong foundation in computer science and a passion for building complete web applications, from the UI down to the API and database.',
-      'Experienced in React, Next.js, TypeScript, Node.js, PHP, and GraphQL across both frontend and backend. I enjoy collaborating with teams to deliver accessible, well-tested applications that drive growth and create real value for users. Active user of AI tools to accelerate development workflows.',
+      'TypeScript-first across the stack — React and Next.js on the frontend, with Node.js, NestJS, Express.js, and Prisma on the backend, plus PHP/Laravel and GraphQL where they fit best. I enjoy collaborating with teams to deliver accessible, well-tested applications that drive growth and create real value for users. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
-      { label: 'Languages', items: 'JavaScript, TypeScript, PHP, HTML, CSS' },
+      { label: 'Languages', items: 'TypeScript, JavaScript, PHP, HTML, CSS' },
       {
         label: 'Frontend',
-        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, SASS',
+        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, Sass',
       },
       {
         label: 'Backend',
-        items: 'Node.js, Express.js, Laravel, Prisma, GraphQL, REST APIs',
+        items:
+          'Node.js, NestJS, Express.js, Laravel, Prisma, GraphQL, REST APIs',
       },
       { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB, Redis' },
       { label: 'Platforms', items: 'Shopify, Magento 2, Hyvä' },
-      { label: 'Bots', items: 'Grammy, Discord.js' },
+      { label: 'Bots', items: 'grammY, Discord.js' },
       { label: 'Testing', items: 'Vitest, Jest, React Testing Library' },
       { label: 'Tools', items: 'Git, Docker, CI/CD, Postman, AI Tools' },
       {
@@ -155,20 +157,20 @@ const ROLES = {
   frontend: {
     pageTitle: 'Mohamed Idris - Frontend Developer',
     metaDescription:
-      'Mohamed Idris - Frontend Developer specializing in React, Next.js, Vue, TypeScript, and building polished, accessible user interfaces.',
+      'Mohamed Idris - Frontend Developer specializing in TypeScript, React, Next.js, Vue, and building polished, accessible user interfaces.',
     ogTitle: 'Mohamed Idris | Frontend Developer',
     ogDescription:
-      'Frontend Developer specializing in React, Next.js, Vue, TypeScript, and accessible UI development.',
+      'Frontend Developer specializing in TypeScript, React, Next.js, Vue, and accessible UI development.',
     roleTitle: 'Frontend Developer',
     about: [
       'Frontend developer with a strong eye for detail and a focus on building fast, accessible, and polished user interfaces.',
-      'Specialized in React, Next.js, and Vue with TypeScript, delivering clean component architectures and smooth user experiences. I enjoy bridging the gap between design and engineering, collaborating closely with designers and backend developers to ship interfaces people enjoy using. Active user of AI tools to accelerate development workflows.',
+      'TypeScript-first with React, Next.js, and Vue, delivering clean component architectures and smooth user experiences. I enjoy bridging the gap between design and engineering, collaborating closely with designers and backend developers to ship interfaces people enjoy using. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
-      { label: 'Languages', items: 'JavaScript, TypeScript, HTML, CSS' },
+      { label: 'Languages', items: 'TypeScript, JavaScript, HTML, CSS' },
       {
         label: 'Frontend',
-        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, SASS',
+        items: 'React, Redux, Next.js, Vue, Alpine.js, Tailwind CSS, Sass',
       },
       { label: 'APIs', items: 'GraphQL, REST APIs' },
       { label: 'Testing', items: 'Vitest, Jest, React Testing Library' },
@@ -181,6 +183,37 @@ const ROLES = {
     projects: [PROJECTS.flyways, PROJECTS.numNinjasWebsite, PROJECTS.cupOfThat],
   },
 
+  backend: {
+    pageTitle: 'Mohamed Idris - Backend Developer',
+    metaDescription:
+      'Mohamed Idris - Backend Developer building APIs and services with TypeScript, NestJS, Express.js, Laravel, and Prisma.',
+    ogTitle: 'Mohamed Idris | Backend Developer',
+    ogDescription:
+      'Backend Developer building APIs and services with TypeScript, NestJS, Express.js, Laravel, and Prisma.',
+    roleTitle: 'Backend Developer',
+    about: [
+      'Backend developer with a strong foundation in computer science and a passion for building robust APIs and services that scale.',
+      'TypeScript-first with NestJS and Express.js on Node.js, plus PHP/Laravel for projects where it fits. Comfortable with database design, authentication, queue systems, and both RESTful and GraphQL APIs across MySQL, PostgreSQL, and MongoDB — using Prisma as my go-to ORM. Active user of AI tools to accelerate development workflows.',
+    ],
+    skills: [
+      { label: 'Languages', items: 'TypeScript, JavaScript, PHP, SQL' },
+      {
+        label: 'Backend',
+        items:
+          'NestJS, Express.js, Node.js, Laravel, Prisma, GraphQL, REST APIs',
+      },
+      { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB, Redis' },
+      { label: 'Testing', items: 'Vitest, Jest' },
+      { label: 'Tools', items: 'Git, Docker, CI/CD, Postman, AI Tools' },
+      {
+        label: 'Soft Skills',
+        items:
+          'Agile Methodologies, Team Collaboration, Code Review, Technical Documentation',
+      },
+    ],
+    projects: [PROJECTS.numNinjas, PROJECTS.jobify, PROJECTS.iomeh],
+  },
+
   php: {
     pageTitle: 'Mohamed Idris - PHP/Laravel Developer',
     metaDescription:
@@ -191,13 +224,14 @@ const ROLES = {
     roleTitle: 'PHP/Laravel Developer',
     about: [
       'PHP/Laravel developer with a strong foundation in computer science and hands-on experience building robust APIs and web applications.',
-      'Experienced in Laravel, MySQL, PostgreSQL, and RESTful API design, with additional proficiency in Node.js and JavaScript for services that benefit from a JavaScript runtime. I care about clean code, good architecture, and building systems that are maintainable and reliable long-term. Active user of AI tools to accelerate development workflows.',
+      'Experienced in Laravel, MySQL, and PostgreSQL with RESTful API design, plus TypeScript on Node.js (NestJS, Express.js, Prisma) for services that benefit from a JavaScript runtime. I care about clean code, good architecture, and building systems that are maintainable and reliable long-term. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
-      { label: 'Languages', items: 'PHP, JavaScript, TypeScript, HTML, CSS' },
+      { label: 'Languages', items: 'PHP, TypeScript, JavaScript, HTML, CSS' },
       {
         label: 'Backend',
-        items: 'Laravel, Node.js, Express.js, Prisma, GraphQL, REST APIs',
+        items:
+          'Laravel, Node.js, NestJS, Express.js, Prisma, GraphQL, REST APIs',
       },
       { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB, Redis' },
       { label: 'Frontend', items: 'React, Vue, Alpine.js, Tailwind CSS' },
@@ -212,31 +246,32 @@ const ROLES = {
     projects: [PROJECTS.oneLessonUp, PROJECTS.iomeh, PROJECTS.numNinjas],
   },
 
-  magento: {
+  ecommerce: {
     pageTitle: 'Mohamed Idris - E-commerce Developer',
     metaDescription:
-      'Mohamed Idris - E-commerce Developer specializing in Magento 2, Hyvä Theme, GCP, and building scalable B2C/B2B platforms from scratch.',
+      'Mohamed Idris - E-commerce Developer specializing in Magento 2, Hyvä Theme, Shopify, and building scalable B2C/B2B platforms from scratch.',
     ogTitle: 'Mohamed Idris | E-commerce Developer',
     ogDescription:
-      'E-commerce Developer specializing in Magento 2, Hyvä Theme, and full-stack web development.',
+      'E-commerce Developer specializing in Magento 2, Hyvä Theme, Shopify, and full-stack web development.',
     roleTitle: 'E-commerce Developer',
     about: [
       'E-commerce developer with a strong foundation in computer science and hands-on experience building and owning Magento 2 platforms end-to-end.',
-      'Specialized in Magento 2, Hyvä Theme, and B2C/B2B e-commerce development. Experienced with PHP, JavaScript, TypeScript, React, GraphQL, GCP infrastructure, Cloudflare (CDN, WAF, caching), and Linux/Nginx server management. Active user of AI tools to accelerate development workflows.',
+      'Specialized in Magento 2, Hyvä Theme, and B2C/B2B e-commerce development. Experienced with PHP, TypeScript, JavaScript, React, GraphQL, GCP infrastructure, Cloudflare (CDN, WAF, caching), and Linux/Nginx server management. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
       {
         label: 'E-commerce',
         items: 'Magento 2, Hyvä Theme, Shopify, B2C & B2B, Adobe Commerce',
       },
-      { label: 'Languages', items: 'PHP, JavaScript, TypeScript, HTML, CSS' },
+      { label: 'Languages', items: 'TypeScript, JavaScript, PHP, HTML, CSS' },
       {
         label: 'Frontend',
-        items: 'React, Next.js, Vue, Alpine.js, Tailwind CSS, SASS',
+        items: 'React, Next.js, Vue, Alpine.js, Tailwind CSS, Sass',
       },
       {
         label: 'Backend',
-        items: 'Node.js, Express.js, Laravel, Prisma, GraphQL, REST APIs',
+        items:
+          'Node.js, NestJS, Express.js, Laravel, Prisma, GraphQL, REST APIs',
       },
       { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB' },
       {
