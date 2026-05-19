@@ -296,7 +296,7 @@ const ROLES = {
 };
 
 const VALID_ROLES = Object.keys(ROLES);
-const DEFAULT_ROLE = 'software';
+const DEFAULT_ROLE = 'fullstack';
 const STORAGE_KEY = 'portfolio_role';
 
 function getRole() {

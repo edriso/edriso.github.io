@@ -6,21 +6,21 @@ Personal resume website built with plain HTML and Tailwind CSS, optimized for cl
 
 The resume supports multiple role variants so you can share a tailored version with different recruiters. The active role is driven by a `?r=` query param and persisted in `localStorage` — the same system used by the portfolio site.
 
-| Param          | Role shown                  |
-| -------------- | --------------------------- |
-| `?r=software`  | Software Engineer (default) |
-| `?r=fullstack` | Fullstack Engineer          |
-| `?r=frontend`  | Frontend Developer          |
-| `?r=backend`   | Backend Developer           |
-| `?r=php`       | PHP/Laravel Developer       |
-| `?r=ecommerce` | E-commerce Developer        |
+| Param          | Role shown                   |
+| -------------- | ---------------------------- |
+| `?r=software`  | Software Engineer            |
+| `?r=fullstack` | Fullstack Engineer (default) |
+| `?r=frontend`  | Frontend Developer           |
+| `?r=backend`   | Backend Developer            |
+| `?r=php`       | PHP/Laravel Developer        |
+| `?r=ecommerce` | E-commerce Developer         |
 
 **How it works:**
 
 1. Visit `/?r=ecommerce` — sets `localStorage` and shows the E-commerce variant.
 2. Subsequent visits to `/` (no param) — reads `localStorage` and keeps showing that variant.
 3. To switch roles, visit with the new param (e.g. `/?r=frontend`).
-4. To reset to default, visit `/?r=software`.
+4. To reset to default, visit `/?r=fullstack`.
 
 **To add or edit a role**, update the `ROLES` object in `src/script.js` — that is the single source of truth for all role titles, descriptions, and skills. No other files need changing.
 
