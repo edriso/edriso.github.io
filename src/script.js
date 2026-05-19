@@ -31,7 +31,7 @@ const PROJECTS = {
   oneLessonUp: {
     name: 'One Lesson Up',
     description:
-      'A gamified learning platform to combat course abandonment — focus on one course at a time, earn coins for daily progress, write lesson summaries, and compete on leaderboards.',
+      'A gamified learning platform to combat course abandonment: focus on one course at a time, earn coins for daily progress, write lesson summaries, and compete on leaderboards.',
     tech: 'Laravel 12, PHP, Vue 3, TypeScript, Inertia.js, MySQL',
     links: [
       { label: 'GitHub', url: 'https://github.com/edriso/one-lesson-up' },
@@ -74,7 +74,7 @@ const PROJECTS = {
     tech: 'Magento 2, Hyvä Theme, PHP, Algolia, Tailwind CSS',
   },
   jrDunnTheme: {
-    name: 'J.R. Dunn Jewelers — Shopify Theme',
+    name: 'J.R. Dunn Jewelers: Shopify Theme',
     description:
       'A custom Shopify theme for a luxury jewelry retailer (authorized Rolex dealer), built as part of a Magento-to-Shopify migration.',
     tech: 'Shopify, Liquid, Alpine.js, TypeScript, Tailwind CSS, Vite',
@@ -92,7 +92,7 @@ const ROLES = {
     roleTitle: 'Software Engineer',
     about: [
       'Software engineer with a strong foundation in computer science and a passion for building web applications that solve real problems and are easy for people to use.',
-      'Experienced across the full stack with TypeScript as my primary language — building frontend interfaces with React and Vue, and developing APIs and services with Node.js, NestJS, Express.js, Prisma, and Laravel. I enjoy collaborating with teams to deliver well-crafted applications that create real value. Active user of AI tools to accelerate development workflows.',
+      'Experienced across the full stack with TypeScript as my primary language, building frontend interfaces with React and Vue, and developing APIs and services with Node.js, NestJS, Express.js, Prisma, and Laravel. I enjoy collaborating with teams to deliver well-crafted applications that create real value. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
       { label: 'Languages', items: 'TypeScript, JavaScript, PHP, HTML, CSS' },
@@ -128,7 +128,7 @@ const ROLES = {
     roleTitle: 'Fullstack Engineer',
     about: [
       'Fullstack engineer with a strong foundation in computer science and a passion for building complete web applications, from the UI down to the API and database.',
-      'TypeScript-first across the stack — React and Next.js on the frontend, with Node.js, NestJS, Express.js, and Prisma on the backend, plus PHP/Laravel and GraphQL where they fit best. I enjoy collaborating with teams to deliver accessible, well-tested applications that drive growth and create real value for users. Active user of AI tools to accelerate development workflows.',
+      'TypeScript-first across the stack: React and Next.js on the frontend, with Node.js, NestJS, Express.js, and Prisma on the backend, plus PHP/Laravel and GraphQL where they fit best. I enjoy collaborating with teams to deliver accessible, well-tested applications that drive growth and create real value for users. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
       { label: 'Languages', items: 'TypeScript, JavaScript, PHP, HTML, CSS' },
@@ -193,7 +193,7 @@ const ROLES = {
     roleTitle: 'Backend Developer',
     about: [
       'Backend developer with a strong foundation in computer science and a passion for building robust APIs and services that scale.',
-      'TypeScript-first with NestJS and Express.js on Node.js, plus PHP/Laravel for projects where it fits. Comfortable with database design, authentication, queue systems, and both RESTful and GraphQL APIs across MySQL, PostgreSQL, and MongoDB — using Prisma as my go-to ORM. Active user of AI tools to accelerate development workflows.',
+      'TypeScript-first with NestJS and Express.js on Node.js, plus PHP/Laravel for projects where it fits. Comfortable with database design, authentication, queue systems, and both RESTful and GraphQL APIs across MySQL, PostgreSQL, and MongoDB, using Prisma as my go-to ORM. Active user of AI tools to accelerate development workflows.',
     ],
     skills: [
       { label: 'Languages', items: 'TypeScript, JavaScript, PHP, SQL' },
