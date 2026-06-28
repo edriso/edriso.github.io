@@ -1,4 +1,4 @@
-const PORTFOLIO_BASE = 'https://edriso.netlify.app';
+const PORTFOLIO_BASE = 'https://edriso.github.io/portfolio/';
 
 const PROJECTS = {
   numNinjas: {
