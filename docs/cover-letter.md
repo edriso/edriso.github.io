@@ -12,4 +12,4 @@ Happy to chat anytime.
 
 Mohamed Idris
 edriso.dev@gmail.com
-[GitHub](https://github.com/edriso) | [Portfolio](https://edriso.netlify.app) | [LinkedIn](https://www.linkedin.com/in/edriso)
+[GitHub](https://github.com/edriso) | [Portfolio](https://edriso.github.io/portfolio/) | [LinkedIn](https://www.linkedin.com/in/edriso)
