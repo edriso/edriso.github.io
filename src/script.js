@@ -44,7 +44,7 @@ const PROJECTS = {
     tech: 'React 19, TypeScript, TanStack Query, TanStack Router, Recharts, Tailwind CSS',
     links: [
       { label: 'GitHub', url: 'https://github.com/edriso/flyways' },
-      { label: 'Demo', url: 'https://flyways-spotter.netlify.app' },
+      { label: 'Demo', url: 'https://edriso.github.io/flyways/' },
     ],
   },
   cupOfThat: {
