@@ -183,7 +183,7 @@ const ROLES = {
         items: 'Agile Methodologies, Team Collaboration, Code Review',
       },
     ],
-    projects: [PROJECTS.flyways, PROJECTS.numNinjasWebsite, PROJECTS.cupOfThat],
+    projects: [PROJECTS.flyways, PROJECTS.numNinjasWebsite, PROJECTS.jobify],
   },
 
   backend: {
