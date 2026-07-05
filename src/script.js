@@ -47,16 +47,6 @@ const PROJECTS = {
       { label: 'Demo', url: 'https://edriso.github.io/flyways/' },
     ],
   },
-  cupOfThat: {
-    name: 'Cup of That',
-    description:
-      "A social platform where users share one daily update about what they're working on or learning, with activity calendars, user profiles, and community engagement.",
-    tech: 'Vue 3, Pinia, Vue Router, TypeScript, Tailwind CSS',
-    links: [
-      { label: 'GitHub', url: 'https://github.com/edriso/cupofthat' },
-      { label: 'Demo', url: 'https://edriso.github.io/cupofthat/' },
-    ],
-  },
   jobify: {
     name: 'Jobify',
     description:
